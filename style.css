@@ -40,7 +40,8 @@ body {
     overflow-x: scroll;
 }
 
-.original__movies::-webkit-scrollbar {
+.original__movies::-webkit-scrollbar,
+.movies__container::-webkit-scrollbar {
     display: none;
 }
 

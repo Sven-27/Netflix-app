@@ -1,4 +1,4 @@
-var firstName = "Nazariy";
+
 
 // Called whe the page is loaded
 window.onload = () =>  {
@@ -7,37 +7,6 @@ window.onload = () =>  {
     getTopRated();
     getGenres();
     letVarExample();
-    // console.log(firstName)
-}
-
-
-
-
-function letVarExample(firstName = "Nazariy"){
-    // Melissas Address 
-    const address = {
-        street: "9879 Test rd.",
-        city: "Brooklyn",
-        state: "NY"
-    }
-
-    // address.state = "MI";
-
-    // let state = address.state;
-    // state = "MI"
-    // console.log(address);
-
-    // let address2 = address;
-    // address2.state = "MI";
-
-    // let address2 = {
-    //     ...address,
-    //     apartment: "MI"
-    // }
-
-    // let { street, city, state } = address;
-
-    // console.log(street + city + state);
 }
 
 async function getMovieTrailer(id) {
